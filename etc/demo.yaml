@@ -1,0 +1,14 @@
+Name: demo.rpc
+ListenOn: 0.0.0.0:8080
+Etcd:
+  Hosts:
+  - 127.0.0.1:2379
+  Key: demo.rpc
+
+MysqlClient:
+  DSN: "GD_node:MWzDaCMPGJZNb3C8@tcp(42.194.201.167:3306)/gd_node?charset=utf8&parseTime=True&loc=Local"
+
+RedisClient:
+  addr: 127.0.0.1:6379
+  password:
+  DB: 1
